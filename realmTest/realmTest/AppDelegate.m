@@ -7,16 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import <Realm/Realm.h>
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize rootNavigation;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainViewController *pMainVC = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.rootNavigation = [[UINavigationController alloc] initWithRootViewController:pMainVC];
+    self.window.rootViewController = self.rootNavigation;
+    
+    [self.window makeKeyAndVisible];
+    
+    // Remove Default Realm File
+    [[NSFileManager defaultManager] removeItemAtPath:[RLMRealm defaultRealmPath] error:nil];
+    
     return YES;
 }
 

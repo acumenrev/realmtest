@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9639F4DB-1306-42C2-B416-7379B718EC74</string>
+	<key>IDESourceControlProjectName</key>
+	<string>realmTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>897BA64100018F751E212018CBDFEC47E2D9400C</key>
+		<string>https://github.com/acumenrev/realmtest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>realmTest/realmTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>897BA64100018F751E212018CBDFEC47E2D9400C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acumenrev/realmtest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>897BA64100018F751E212018CBDFEC47E2D9400C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>897BA64100018F751E212018CBDFEC47E2D9400C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>realmtest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
